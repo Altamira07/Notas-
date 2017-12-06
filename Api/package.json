@@ -1,21 +1,23 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "Api creada para el block de notas notas++",
+  "description": "Api generada para notas++ ",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Luisito",
+  "author": "Luisit",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
-    "mysql": "^2.15.0",
-    "nodemon": "^1.12.4"
+    "jwt-simple": "^0.5.1",
+    "md5": "^2.2.1",
+    "moment": "^2.19.3",
+    "mysql": "^2.15.0"
   },
   "devDependencies": {
-    "nodemon": "^1.12.4"
+    "nodemon": "^1.12.5"
   }
 }
